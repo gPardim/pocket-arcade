@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket Arcade</string>
+
+    <!-- Tela 1 - Apresentação -->
+    <string name="titulo_app">Pocket Arcade</string>
+    <string name="subtitulo_app">Fliperama de bolso, versão café com bolo</string>
+    <string name="desc_logo">Logotipo do Pocket Arcade: um controle de fliperama marrom com botões rosa e amarelo</string>
+    <string name="aluno_nome">Glauco Pardim Tôrres</string>
+    <string name="aluno_matricula">Matrícula: 20252012000420</string>
+    <string name="aluno_curso">Curso: Análise e Desenvolvimento de Sistemas</string>
+    <string name="label_apelido">Seu apelido</string>
+    <string name="hint_apelido">Digite seu apelido</string>
+    <string name="btn_entrar">Entrar no Pocket Arcade</string>
+    <string name="erro_apelido_curto">O apelido precisa ter pelo menos 3 caracteres.</string>
+    <string name="ultimo_modulo_vazio">Nenhum módulo jogado ainda</string>
+    <string name="ultimo_modulo_formato">Último módulo usado: %1$s</string>
+    <string name="rodape_projeto">Projeto individual · Aplicações para Dispositivos Móveis</string>
+    <string name="erro_dados_invalidos">Dados inválidos recebidos. Voltando ao menu.</string>
+
+    <!-- Nomes dos módulos -->
+    <string name="modulo_scanner">Scanner de Mensagens</string>
+    <string name="modulo_arena">Arena</string>
+    <string name="modulo_codigo">Código Secreto</string>
+    <string name="modulo_randomizador">Randomizador</string>
+
+    <!-- Tela 2 - Central -->
+    <string name="saudacao_formato">Olá, %1$s!</string>
+    <string name="intro_central">Escolha um desafio e divirta-se. Cada painel abre uma tela diferente do fliperama.</string>
+    <string name="btn_abrir">Abrir</string>
+    <string name="titulo_painel_scanner">Scanner</string>
+    <string name="descricao_painel_scanner">Analise uma mensagem em cinco medidas: caracteres, palavras, vogais, texto invertido e palíndromo.</string>
+    <string name="desc_icone_scanner">Ícone de um envelope com uma lupa</string>
+    <string name="titulo_painel_arena">Arena</string>
+    <string name="descricao_painel_arena">Pedra, papel e tesoura contra o dispositivo. Vence quem fizer duas vitórias primeiro.</string>
+    <string name="desc_icone_arena">Ícone de um troféu</string>
+    <string name="titulo_painel_codigo">Código Secreto</string>
+    <string name="descricao_painel_codigo">Abra o cofre descobrindo quatro dígitos diferentes em até oito tentativas.</string>
+    <string name="desc_icone_codigo">Ícone de um cofre</string>
+    <string name="titulo_painel_randomizador">Randomizador</string>
+    <string name="descricao_painel_randomizador">Cadastre itens por categoria e deixe a sorte escolher um deles.</string>
+    <string name="desc_icone_randomizador">Ícone de um dado</string>
+    <string name="titulo_dicas">Dicas do fliperama</string>
+    <string name="texto_dicas">• No Scanner, teste \"Ana\" e \"A sacada da casa\".\n• Na Arena, empates não somam pontos.\n• No Código Secreto, cada dígito aparece uma única vez.\n• No Randomizador, segure um item para removê-lo.\n• Em qualquer desafio, \"Encerrar sessão\" volta direto para a apresentação.</string>
+    <string name="texto_creditos">Créditos: logotipo e ícones desenhados em vetor para este projeto. Efeitos sonoros sintetizados por código (ondas senoidais e triangulares), sem arquivos de terceiros.</string>
+    <string name="btn_voltar_apresentacao">Voltar à apresentação</string>
+
+    <!-- Comuns aos desafios -->
+    <string name="jogador_formato">Jogador: %1$s</string>
+    <string name="btn_voltar">Voltar ao menu</string>
+    <string name="btn_encerrar_sessao">Encerrar sessão</string>
+    <string name="btn_nova_partida">Nova partida</string>
+
+    <!-- Tela 3 - Scanner -->
+    <string name="titulo_scanner_tela">Scanner de Mensagens</string>
+    <string name="hint_mensagem">Digite uma mensagem</string>
+    <string name="btn_analisar">Analisar</string>
+    <string name="btn_limpar">Limpar</string>
+    <string name="label_medida">Medida</string>
+    <string name="label_resultado">Resultado</string>
+    <string name="medida_caracteres">Caracteres sem espaços</string>
+    <string name="medida_palavras">Palavras</string>
+    <string name="medida_vogais">Vogais</string>
+    <string name="medida_invertido">Texto invertido</string>
+    <string name="medida_palindromo">Palíndromo</string>
+    <string name="resposta_sim">Sim</string>
+    <string name="resposta_nao">Não</string>
+    <string name="erro_mensagem_vazia">Digite uma mensagem para analisar.</string>
+    <string name="erro_mensagem_curta">Use pelo menos 3 caracteres.</string>
+
+    <!-- Tela 4 - Arena -->
+    <string name="titulo_arena_tela">Arena</string>
+    <string name="subtitulo_arena">Melhor de três: vence quem fizer duas vitórias primeiro.</string>
+    <string name="placar_formato">Você %1$d × %2$d Dispositivo</string>
+    <string name="label_voce">Você</string>
+    <string name="label_dispositivo">Dispositivo</string>
+    <string name="escolha_jogada">Escolha sua jogada</string>
+    <string name="rodada_vitoria">Você venceu a rodada!</string>
+    <string name="rodada_derrota">O dispositivo venceu a rodada.</string>
+    <string name="rodada_empate">Empate! Ninguém pontua.</string>
+    <string name="partida_vencida">Vitória! Você levou a partida.</string>
+    <string name="partida_perdida">Derrota! O dispositivo levou a partida.</string>
+    <string name="dica_empate">Empates não somam pontos.</string>
+    <string name="desc_btn_pedra">Jogar pedra</string>
+    <string name="desc_btn_papel">Jogar papel</string>
+    <string name="desc_btn_tesoura">Jogar tesoura</string>
+    <string name="desc_escolha_jogador">Sua escolha: %1$s</string>
+    <string name="desc_escolha_dispositivo">Escolha do dispositivo: %1$s</string>
+    <string name="desc_escolha_vazia">Escolha ainda não feita</string>
+    <string-array name="jogadas">
+        <item>Pedra</item>
+        <item>Papel</item>
+        <item>Tesoura</item>
+    </string-array>
+
+    <!-- Tela 5 - Código Secreto -->
+    <string name="titulo_codigo_tela">Cofre do Código Secreto</string>
+    <string name="subtitulo_codigo">Descubra quatro dígitos diferentes em até oito tentativas.</string>
+    <string name="tentativas_formato">Tentativa %1$d de %2$d</string>
+    <string name="hint_tentativa">Digite quatro números diferentes</string>
+    <string name="btn_tentar">Tentar</string>
+    <string name="legenda_certo">Posição certa</string>
+    <string name="legenda_posicao">Posição errada</string>
+    <string name="legenda_ausente">Não existe</string>
+    <string name="titulo_historico">Histórico das tentativas</string>
+    <string name="linha_tentativa">Tentativa %1$d — %2$d no lugar certo, %3$d em outro lugar</string>
+    <string name="erro_tentativa_vazia">Digite os quatro números.</string>
+    <string name="erro_tentativa_tamanho">Digite exatamente quatro números.</string>
+    <string name="erro_tentativa_repetida">Não repita dígitos: cada número aparece uma vez.</string>
+    <string name="codigo_vitoria">Cofre aberto! %1$d tentativa(s) em %2$d segundo(s).</string>
+    <string name="codigo_derrota">Cofre trancado! O código era %1$s. Tempo: %2$d segundo(s).</string>
+
+    <!-- Tela 6 - Randomizador -->
+    <string name="titulo_randomizador_tela">Randomizador</string>
+    <string name="hint_valor">Palavra ou item</string>
+    <string name="btn_adicionar">Adicionar</string>
+    <string name="btn_sortear">Sortear</string>
+    <string name="btn_ver_grade">Ver grade</string>
+    <string name="btn_ver_lista">Ver lista</string>
+    <string name="categoria_placeholder">Categoria</string>
+    <string name="categoria_filmes">Filmes</string>
+    <string name="categoria_comidas">Comidas</string>
+    <string name="categoria_lugares">Lugares</string>
+    <string name="categoria_desafios">Desafios</string>
+    <string-array name="categorias_randomizador">
+        <item>@string/categoria_placeholder</item>
+        <item>@string/categoria_filmes</item>
+        <item>@string/categoria_comidas</item>
+        <item>@string/categoria_lugares</item>
+        <item>@string/categoria_desafios</item>
+    </string-array>
+    <string name="erro_valor_curto">Use pelo menos 3 caracteres.</string>
+    <string name="erro_categoria">Selecione uma categoria.</string>
+    <string name="msg_item_adicionado">Item adicionado!</string>
+    <string name="msg_item_removido">\"%1$s\" removido.</string>
+    <string name="sem_itens_categoria">Não há itens nessa categoria.</string>
+    <string name="sorteado_vazio">Escolha uma categoria e toque em Sortear.</string>
+    <string name="sorteado_formato">Sorteado: %1$s (%2$s)</string>
+    <string name="item_filme_1">Meu Amigo Totoro</string>
+    <string name="item_filme_2">O Auto da Compadecida</string>
+    <string name="item_comida_1">Pão de queijo</string>
+    <string name="item_comida_2">Cuscuz com ovo</string>
+    <string name="item_lugar_1">Cachoeira em Pirenópolis</string>
+    <string name="item_lugar_2">Praça com banco de madeira</string>
+    <string name="item_desafio_1">Cantar o parabéns em italiano</string>
+    <string name="item_desafio_2">Fazer 10 polichinelos</string>
+</resources>

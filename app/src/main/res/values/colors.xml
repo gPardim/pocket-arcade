@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base creme e marrom (mesma familia dos apps anteriores) -->
+    <color name="fundo_arcade">#F3EADB</color>
+    <color name="card_arcade">#FBF6EC</color>
+    <color name="borda_arcade">#D9C7A8</color>
+    <color name="texto_principal">#4A3B2C</color>
+    <color name="texto_secundario">#7A6650</color>
+    <color name="botao_primario">#8B6B4A</color>
+    <color name="texto_botao">#FFF8EC</color>
+    <color name="caramelo">#B07A48</color>
+    <color name="destaque_item">#EAD9B8</color>
+
+    <!-- Pasteis dos icones -->
+    <color name="pastel_rosa">#E8C4B8</color>
+    <color name="pastel_verde">#C5D3B5</color>
+    <color name="pastel_azul">#BFD1D9</color>
+    <color name="pastel_amarelo">#F0DBA8</color>
+    <color name="pastel_lilas">#D8C8E0</color>
+    <color name="cinza_pedra">#BDB5A8</color>
+    <color name="papel_claro">#FFFDF7</color>
+    <color name="marrom_icone">#5D4037</color>
+
+    <!-- Pistas do Codigo Secreto (inspiradas no TERMO) -->
+    <color name="feedback_certo">#9CC58F</color>
+    <color name="feedback_posicao">#EBD27F</color>
+    <color name="feedback_ausente">#CFC7BA</color>
+
+    <!-- Resultados -->
+    <color name="resultado_vitoria">#5E8553</color>
+    <color name="resultado_derrota">#A8574C</color>
+    <color name="resultado_neutro">#7A6650</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.PocketArcade" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/botao_primario</item>
+        <item name="colorOnPrimary">@color/texto_botao</item>
+        <item name="android:windowBackground">@color/fundo_arcade</item>
+    </style>
+
+    <style name="Theme.PocketArcade" parent="Base.Theme.PocketArcade" />
+</resources>
